@@ -1,0 +1,4 @@
+import Link from "next/link";
+export default function AdminInfo() {
+  return <main className="admin-page wrap"><Link href="/" className="back-link">← Επιστροφή στην ιστοσελίδα</Link><div className="eyebrow">ADMINISTRATION</div><h1>Διαχείριση κρατήσεων</h1><p>Η διαχειριστική περιοχή θα συνδεθεί με Supabase Auth και προστατευμένο πίνακα κρατήσεων. Αυτή η σελίδα είναι προσωρινή και δεν εμφανίζει δεδομένα πελατών μέχρι να ολοκληρωθεί η ενεργοποίηση ασφαλούς σύνδεσης.</p><div className="admin-warning"><b>Απαιτείται ρύθμιση πριν από τη δημοσίευση</b><span>Μην ενεργοποιήσετε δημόσια πρόσβαση σε στοιχεία πελατών. Ακολουθήστε το README και το SQL schema για τη βάση δεδομένων.</span></div></main>;
+}
